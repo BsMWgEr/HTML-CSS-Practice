@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_menu.css">
     <title>Getting started with CSS</title>
 </head>
 
@@ -10,7 +11,49 @@
     <div class="navbar">
         <div class="navbar_links">
             <div class="left_side">
-                <h2>Welcome to the Jungle</h2>
+                <div class="menu-container">
+                    <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+                    <div class="hamburger-icon">
+                        <label for="openmenu" id="hamburger-label">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
+                    <div class="menu-pane">
+                        <nav>
+                            <ul class="menu-links">
+                                <li><a href="###">Jonathan McGaha</a><span id="QC-info">
+                    <p>+1 418-640-3300</p>
+                </span>
+                                </li>
+                                <li><a href="###">About</a></li>
+                                <li><a href="###">Home</a></li>
+                                <li><a href="###">Login</a></li>
+                            </ul>
+                            <ul class="menu-links">
+                                <li><a href="###">Sebastian, FL</a>
+                                    <span id="DC-info">
+            <p>+1 202-472-3850</p>
+          </span></li>
+
+                                <li><a href="###">breakfast</a></li>
+                                <li><a href="###">
+                                    bakery
+                                </a></li>
+                                <li><a href="###">bar</a></li>
+                            </ul>
+
+
+                        </nav>
+                    </div>
+                    <div class="body-text">
+                        <h1>Website Here</h1>
+                        <h2>January 2022</h2>
+                        <p>Made with CSS</p>
+                    </div>
+                </div>
             </div>
             <div class="right_side">
                 <p>HOME</p>

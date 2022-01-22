@@ -1,27 +1,17 @@
 
-.navbar {
-    display: grid;
-    grid-template-rows: max-content 50px;
-    background-color: burlywood;
 
-}
-
-.navbar_links {
-
-}
-
-.left_side {
-
-}
-
-.right_side {
-
-}
 
 main {
     display: grid;
     grid-template-columns: 30% 70%;
    
+
+}
+
+.navbar {
+    display: grid;
+    grid-template-rows: max-content 50px;
+    background-color: burlywood;
 
 }
 
@@ -39,8 +29,29 @@ h1 {
 
 }
 
-p {
-    color: red;
+h2 {
+    padding-left: 20px;
+}
+
+.navbar_links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: blue;
+    font-size: 16pt;
+    font-family: AppleGothic;
+}
+
+.left_side {
+    padding-top: 10px;
+}
+
+.right_side {
+    text-justify: newspaper;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+
+
 }
 
 p, li {

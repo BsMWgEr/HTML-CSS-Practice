@@ -1,0 +1,82 @@
+
+.navbar {
+    display: grid;
+    grid-template-rows: max-content 50px;
+    background-color: burlywood;
+
+}
+
+.navbar_links {
+
+}
+
+.left_side {
+
+}
+
+.right_side {
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+
+}
+
+.linear-gradient {
+    background: radial-gradient(rgb(184, 15, 15), rgb(228, 179, 43), rgb(2, 89, 129));
+  }
+
+h1 {
+    background: linear-gradient(66deg, red 10%, green 19%, blue 56%);
+    border: 2px solid black;
+    margin: 10px 20px 20px;
+    padding: 10px 8% 8%;
+    opacity: 99%;
+    border-radius: 50px;
+
+}
+
+p {
+    color: red;
+}
+
+p, li {
+    color: green;
+}
+
+li {
+    list-style-type: mongolian;
+    font-size: 24pt;
+}
+
+.ul_list {
+    padding: 10% 0 0 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.special:hover {
+    color: orange;
+    font-weight: bold;
+    font-size: xx-small;
+    text-decoration:none;
+    padding-left: 10%;
+    padding-top: 50px;
+
+
+}
+
+.one {
+    background: linear-gradient(233deg,
+        rgb(160, 238, 160) 50%,
+        purple,
+        rgb(7, 92, 7),
+        rgb(163, 110, 11) 88%,
+        red 99%);
+    opacity: 90%;
+}
